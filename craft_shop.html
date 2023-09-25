@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .banner {
+        height: 600px;
+        background-color: #3d626c;
+      }
+      .banner img {
+        opacity: 0.5;
+      }
+      .banner-p {
+        width: 50%;
+      }
+      @media only screen and (max-width: 767px) {
+        .banner-p {
+          text-align: center !important ;
+          width: 100%;
+          font-size: 25px;
+        }
+        .banner-h1 {
+          font-size: 60px !important;
+        }
+        .box p {
+          text-align: center !important;
+        }
+        .design-box {
+          height: 200px !important;
+        }
+        .design-box :nth-child(n) {
+          text-align: center !important;
+          width: 100% !important;
+        }
+      }
+
+      .box :nth-child(n) {
+        padding-left: 25px;
+        position: absolute;
+        color: #56666c;
+      }
+      .box h2 {
+        top: 25px;
+      }
+      .box p {
+        position: absolute;
+        top: 100px;
+        font-size: 19px;
+      }
+      .box span {
+        position: absolute;
+        bottom: 25px;
+        font-weight: bold;
+      }
+
+      .design-box :nth-child(n) {
+        position: absolute;
+      }
+      .big-img-sec
+      {
+       
+        background-color: black;
+        background-image: url("https://mobirise.com/extensions/personam4/assets/images/mbr-3.jpg");
+        height: 1000px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="banner position-relative d-flex flex-column justify-content-center align-items-md-start align-items-center"
+    >
+      <img
+        src="https://mobirise.com/extensions/personam4/assets/images/mbr.jpg"
+        alt=""
+        class="w-100 h-100 position-absolute"
+      />
+
+      <p
+        class="text-white display-1 ml-5 mbr-fonts-style banner-h1"
+        style="z-index: 1; font-weight: 400"
+      >
+        Craft Shop
+      </p>
+      <p
+        class="text-white ml-5 banner-p"
+        style="z-index: 1; font-weight: 400; font-size: 20px"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar
+        efficitur risus. Nulla elementum suscipit odio
+      </p>
+      <button
+        type="button"
+        class="btn border text-white ml-5"
+        style="width: 200px; height: 70px; z-index: 1; font-weight: 600"
+      >
+        VIEW MORE
+      </button>
+    </div>
+
+    <section>
+      <div class="container-fluid mt-4 mb-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div
+              class="box d-flex flex-column position-relative align-items-md-start align-items-center"
+              style="height: 400px; background-color: #d7edd8"
+            >
+              <h2>Style</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elitdo
+                eiusmod temporeum dicant partem scripserit.
+              </p>
+              <span>VIEW MORE</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div
+              class="box d-flex flex-column position-relative align-items-md-start align-items-center"
+              style="height: 400px; background-color: #fff3f3"
+            >
+              <h2>Style</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elitdo
+                eiusmod temporeum dicant partem scripserit.
+              </p>
+              <span>VIEW MORE</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div
+              class="box d-flex flex-column position-relative align-items-md-start align-items-center"
+              style="height: 400px; background-color: #eaf4f8"
+            >
+              <h2>Style</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elitdo
+                eiusmod temporeum dicant partem scripserit.
+              </p>
+              <span>VIEW MORE</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div
+              class="box d-flex flex-column position-relative align-items-md-start align-items-center"
+              style="height: 400px; background-color: #fff3f3"
+            >
+              <h2>Style</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elitdo
+                eiusmod temporeum dicant partem scripserit.
+              </p>
+              <span>VIEW MORE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div
+              class="design-box position-relative"
+              style="height: 250px; color: #3d626c"
+            >
+              <p style="text-align: end; font-size: 50px; top: 30px">
+                A new way to create design for you
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div
+              class="design-box position-relative"
+              style="height: 250px; font-size: 18px; color: #3d626c"
+            >
+              <p style="width: 80%; top: 50px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elitdo
+                eiusmod temporeum dicant partem scripserit. Lorem ipsum dolor
+                sit amet, consec tetur adipiscing elit adipiscing elitdo.
+              </p>
+              <span style="bottom: 15px">VIEW MORE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid mt-4 mb-4 pt-5"  style="  background-color: #FFF3F3; " >
+        <h1 class="display-4" style="text-align: center;">
+          Make Your Style Today
+        </h1>
+        <div
+          class="row mt-5  d-flex justify-content-lg-center justify-content-md-around"
+         
+        >
+          <div class="col-lg-6 col-md-5 col-12 "  style="height: 500px">
+            <img
+              src="https://mobirise.com/extensions/personam4/assets/images/mbr-1.jpg"
+              style="width: 100%; height: 80%"
+            />
+            <h2 style="color: #3d626c">Ideas</h2>
+            <h5 style="color: #9a9e9f">Project</h5>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-5 col-12  offset-lg-1"  style="height: 500px"
+          >
+            <img
+              src="https://mobirise.com/extensions/personam4/assets/images/mbr-4.jpg"
+              style="width: 100%; height: 80%"
+            />
+            <h2 style="color: #3d626c">Ideas</h2>
+            <h5 style="color: #9a9e9f">Project</h5>
+          </div>
+        </div>
+        <div
+          class="row mt-5  d-flex justify-content-lg-center justify-content-md-around "
+         
+        >
+        
+
+          <div
+            class="col-lg-4 col-md-5 col-12 "
+            style="height: 500px"
+          >
+            <img
+              src="https://mobirise.com/extensions/personam4/assets/images/mbr-4.jpg"
+              style="width: 100%; height: 80%"
+            />
+            <h2 style="color: #3d626c">Ideas</h2>
+            <h5 style="color: #9a9e9f">Project</h5>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12  offset-lg-1"  style="height: 500px">
+            <img
+              src="https://mobirise.com/extensions/personam4/assets/images/mbr-1.jpg"
+              style="width: 100%; height: 80%"
+            />
+            <h2 style="color: #3d626c">Ideas</h2>
+            <h5 style="color: #9a9e9f">Project</h5>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+    <section>
+    <div class="container-fluid big-img-sec">
+      <div class="row">
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6"></div>
+      </div>
+    </div> 
+    </section>
+  </body>
+</html>
