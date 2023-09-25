@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <style>
       .banner {
         height: 600px;
@@ -44,7 +45,13 @@
         .box3 {
           height: 200px !important;
         }
-        
+        .box2,
+        .box3 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
       }
 
       @media only screen and (max-width: 992px) {
@@ -59,7 +66,8 @@
           font-size: 45px !important;
           text-align: center !important;
         }
-        .box1 , .box4{
+        .box1,
+        .box4 {
           height: 500px !important;
         }
       }
@@ -289,35 +297,96 @@
       <div class="container-fluid big-img-sec">
         <div class="row">
           <div
-            class="left-big-img-sec col-lg-6 col-md-12 border border-danger d-flex align-items-lg-center justify-content-lg-center"
+            class="left-big-img-sec col-lg-6 col-md-12 d-flex align-items-lg-center justify-content-lg-center"
             style="height: 600px"
           >
             <p style="font-size: 55px; width: 80%; color: #fff3f3">
               A New Way To Create Design
             </p>
           </div>
-          <div
-            class="right-big-img-sec col-lg-6 border border-info"
-            style="height: 600px"
-          >
+          <div class="right-big-img-sec col-lg-6" style="height: 600px">
             <div class="row">
               <div
-                class="box1 col-lg-6 col-md-12 col-12 bg-danger"
+                class="box1 col-lg-6 col-md-12 col-12"
                 style="height: 300px"
               ></div>
               <div
-                class="box2 col-lg-6 col-md-6 col-12 bg-info"
-                style="height: 300px"
-              ></div>
+                class="box2 col-lg-6 col-md-6 col-12"
+                style="height: 300px; background-color: #d7edd8"
+              >
+                <h1 style="font-size: 50px; padding: 20px">
+                  Create Your Unique Style
+                </h1>
+              </div>
               <div
-                class="box3 col-lg-6 col-md-6 col-12 bg-success"
-                style="height: 300px"
-              ></div>
+                class="box3 col-lg-6 col-md-6 col-12"
+                style="height: 300px; background-color: #f6f6f6"
+              >
+                <p style="font-size: 25px; align-items: center; padding: 15px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elitdo
+                  eiusmod temporeum dicant partem scripserit.
+                </p>
+              </div>
               <div
-                class="box4 col-lg-6 col-md-12 col-12 bg-danger"
+                class="box4 col-lg-6 col-md-12 col-12"
                 style="height: 300px"
               ></div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid" style="color: #3d626c">
+        <div class="row style-sec">
+          <div
+            class="col-lg-4 col-12"
+            style="height: 500px; background-color: #fff3f3; padding-top: 50px"
+          >
+            <p class="display-4" style="text-align: end">Unique Style</p>
+          </div>
+          <div
+            class="col-lg-8 col-12"
+            style="height: 500px; background-color: #f6f6f6; padding-top: 60px"
+          >
+            <h2>A New Way To Create Design</h2>
+            <p style="width: 80%">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              vulputate est leo, vitae auctor metus eleifend eu. Quisque
+              fermentum nisi sed convallis ornare.
+            </p>
+            <ul style="padding: 10px">
+              <li>Aliquam lorem ante, dapibus in, viverra quis, feugiat</li>
+              <li>
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+                Aenean
+              </li>
+              <li>
+                Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+                nisi nam
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              </li>
+              <li>Maecenas tempus, tellus eget</li>
+              <li>
+                Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
+                lorem. neque
+              </li>
+              <li>
+                Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem
+                maece
+              </li>
+              <li>
+                Venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget
+                eros lorem
+              </li>
+              <li>Nullam quis ante. Etiam sit amet eget eros faucibus tinci</li>
+              <li>Luctus pulvinar hendrerit</li>
+              <li>Sapien ut libero</li>
+              <li>Adipiscing elit</li>
+            </ul>
           </div>
         </div>
       </div>
