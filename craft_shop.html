@@ -41,6 +41,27 @@
           text-align: center !important;
           width: 100% !important;
         }
+        .box3 {
+          height: 200px !important;
+        }
+        
+      }
+
+      @media only screen and (max-width: 992px) {
+        .left-big-img-sec {
+          height: 200px !important;
+          display: flex !important;
+          justify-content: center !important;
+          align-items: center !important;
+        }
+        .left-big-img-sec p {
+          width: 50% !important;
+          font-size: 45px !important;
+          text-align: center !important;
+        }
+        .box1 , .box4{
+          height: 500px !important;
+        }
       }
 
       .box :nth-child(n) {
@@ -65,16 +86,23 @@
       .design-box :nth-child(n) {
         position: absolute;
       }
-      .big-img-sec
-      {
-       
+      .big-img-sec {
         background-color: black;
         background-image: url("https://mobirise.com/extensions/personam4/assets/images/mbr-3.jpg");
-        height: 1000px;
+        /* height: 600px; */
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 0.5;
+      }
+      .box1 {
+        background-image: url("	https://mobirise.com/extensions/personam4/assets/images/mbr.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .box4 {
+        background-image: url("	https://mobirise.com/extensions/personam4/assets/images/mbr-4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
       }
     </style>
   </head>
@@ -200,15 +228,17 @@
     </section>
 
     <section>
-      <div class="container-fluid mt-4 mb-4 pt-5"  style="  background-color: #FFF3F3; " >
-        <h1 class="display-4" style="text-align: center;">
+      <div
+        class="container-fluid mt-4 mb-4 pt-5"
+        style="background-color: #fff3f3"
+      >
+        <h1 class="display-4" style="text-align: center">
           Make Your Style Today
         </h1>
         <div
-          class="row mt-5  d-flex justify-content-lg-center justify-content-md-around"
-         
+          class="row mt-5 d-flex justify-content-lg-center justify-content-md-around"
         >
-          <div class="col-lg-6 col-md-5 col-12 "  style="height: 500px">
+          <div class="col-lg-6 col-md-5 col-12" style="height: 500px">
             <img
               src="https://mobirise.com/extensions/personam4/assets/images/mbr-1.jpg"
               style="width: 100%; height: 80%"
@@ -218,24 +248,7 @@
           </div>
 
           <div
-            class="col-lg-4 col-md-5 col-12  offset-lg-1"  style="height: 500px"
-          >
-            <img
-              src="https://mobirise.com/extensions/personam4/assets/images/mbr-4.jpg"
-              style="width: 100%; height: 80%"
-            />
-            <h2 style="color: #3d626c">Ideas</h2>
-            <h5 style="color: #9a9e9f">Project</h5>
-          </div>
-        </div>
-        <div
-          class="row mt-5  d-flex justify-content-lg-center justify-content-md-around "
-         
-        >
-        
-
-          <div
-            class="col-lg-4 col-md-5 col-12 "
+            class="col-lg-4 col-md-5 col-12 offset-lg-1"
             style="height: 500px"
           >
             <img
@@ -245,7 +258,22 @@
             <h2 style="color: #3d626c">Ideas</h2>
             <h5 style="color: #9a9e9f">Project</h5>
           </div>
-          <div class="col-lg-6 col-md-5 col-12  offset-lg-1"  style="height: 500px">
+        </div>
+        <div
+          class="row mt-5 d-flex justify-content-lg-center justify-content-md-around"
+        >
+          <div class="col-lg-4 col-md-5 col-12" style="height: 500px">
+            <img
+              src="https://mobirise.com/extensions/personam4/assets/images/mbr-4.jpg"
+              style="width: 100%; height: 80%"
+            />
+            <h2 style="color: #3d626c">Ideas</h2>
+            <h5 style="color: #9a9e9f">Project</h5>
+          </div>
+          <div
+            class="col-lg-6 col-md-5 col-12 offset-lg-1"
+            style="height: 500px"
+          >
             <img
               src="https://mobirise.com/extensions/personam4/assets/images/mbr-1.jpg"
               style="width: 100%; height: 80%"
@@ -254,17 +282,45 @@
             <h5 style="color: #9a9e9f">Project</h5>
           </div>
         </div>
-       
       </div>
     </section>
 
     <section>
-    <div class="container-fluid big-img-sec">
-      <div class="row">
-        <div class="col-lg-6"></div>
-        <div class="col-lg-6"></div>
+      <div class="container-fluid big-img-sec">
+        <div class="row">
+          <div
+            class="left-big-img-sec col-lg-6 col-md-12 border border-danger d-flex align-items-lg-center justify-content-lg-center"
+            style="height: 600px"
+          >
+            <p style="font-size: 55px; width: 80%; color: #fff3f3">
+              A New Way To Create Design
+            </p>
+          </div>
+          <div
+            class="right-big-img-sec col-lg-6 border border-info"
+            style="height: 600px"
+          >
+            <div class="row">
+              <div
+                class="box1 col-lg-6 col-md-12 col-12 bg-danger"
+                style="height: 300px"
+              ></div>
+              <div
+                class="box2 col-lg-6 col-md-6 col-12 bg-info"
+                style="height: 300px"
+              ></div>
+              <div
+                class="box3 col-lg-6 col-md-6 col-12 bg-success"
+                style="height: 300px"
+              ></div>
+              <div
+                class="box4 col-lg-6 col-md-12 col-12 bg-danger"
+                style="height: 300px"
+              ></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div> 
     </section>
   </body>
 </html>
