@@ -103,7 +103,10 @@
           
           height: 300px !important;
         }
-       
+       .navbar-nav ul 
+       {
+       padding-left: 0px !important;
+       }
       }
 
       .box :nth-child(n) {
@@ -195,6 +198,36 @@
     </style>
   </head>
   <body>
+    <nav class="navbar sticky-top  navbar-expand-lg navbar-light py-3 " style="background-color: #3D626C; padding-left: 50px; ">
+
+
+      <a class="text-white navbar-brand  " style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 30px; letter-spacing: 2px; " href="#">CRAFT SHOP</a>
+      <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav " style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; padding-left: 50px;">
+          <li class=" nav-item active">
+            <a class=" text-white nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class=" nav-item">
+            <a class=" text-white nav-link" href="#">Features</a>
+          </li>
+          <li class=" nav-item">
+            <a class=" text-white nav-link" href="#">Pricing</a>
+          </li>
+          <li class="= nav-item dropdown">
+            <a class="text-white nav-link dropdown-toggle  " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Disabled</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Stationary</a>
+              <a class="dropdown-item" href="#">Clothing action</a>
+              <a class="dropdown-item" href="#">Accessories</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div
       class="banner position-relative d-flex flex-column justify-content-center align-items-md-start align-items-center"
     >
