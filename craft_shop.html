@@ -72,6 +72,10 @@
         .style-sec-left p {
           text-align: center !important;
         }
+        .right-about-sec h1{
+          text-align: center !important;
+        }
+       
       }
 
       @media only screen and (max-width: 992px) {
@@ -90,6 +94,16 @@
         .box4 {
           height: 500px !important;
         }
+        .about-sec .row{
+         padding-left: 50px !important;
+
+        }
+        .left-about-sec
+        {
+          
+          height: 300px !important;
+        }
+       
       }
 
       .box :nth-child(n) {
@@ -137,6 +151,46 @@
       }
       .card1:hover :nth-child(n) {
         color: white !important;
+      }
+.footer-sec
+{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ row-gap: 30px;
+}
+      .footer-sec ul 
+      {
+      
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+         
+      }
+     
+      .footer-sec ul li 
+      {
+        
+        padding-left: 30px;
+      }
+      .footer-sec ul li a{
+       color:  white;
+       text-decoration: none;
+     
+      }
+      .footer-sec ul li :hover{
+        padding-bottom: 7px;
+        border-bottom: 1px solid white;
+      }
+      .copyright-footer
+      {
+        color: white;
+        word-spacing: 6px;
+        
       }
     </style>
   </head>
@@ -423,25 +477,7 @@
       </div>
     </section>
 
-    <!-- <section>
-      <div class="container-fluid">
-        <div class="carft-features pt-5 border" style="height: 500px">
-          <h1 style="text-align: center">Craft Shop Features</h1>
-          <div class="row d-flex align-items-center justify-content-center">
-            <div
-              class="card col-10 rounded-0"
-              style="background-color: #f6f6f6; height: 80px"
-            >
-              <h4>  
-                <span class="sign mbr-iconfont inactive mbri-arrow-up"></span>
-                Design
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- for testing purspose only  -->
+   
 
     <section>
       <div class="container-fluid" style="padding-top: 50px; padding-bottom: 50px;">
@@ -770,9 +806,73 @@ height="100%" width="100%">
     </section>
 
     <section>
-      <div class=" container-fluid">
-
+      <div class="about-sec container-fluid  pt-5 pb-5" style="background-color: #F6F6F6; ">
+<div class=" row   justify-content-center  "   >
+  <div class=" right-about-sec col-lg-6 col-md-12 col-12  " style="height: 400px ;">
+  <h1 class=" mb-4" style="font-size: 50px; color: #3d626c;">About Store</h1>
+  <p style="line-height: 170%; text-align: justify; color: #9a9e9f">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate est leo, vitae auctor metus eleifend eu. Quisque fermentum nisi sed convallis ornare. Aenean laoreet, libero eget pharetra laoreet, lectus augue auctor justo, et condimentum elit metus vitae enim. Maecenas tincidunt tempus eros, eget aliquam nibh dapibus ornare. Curabitur egestas gravida mi nec egestas. Donec urna diam, tempus non risus pretium, tristique consequat elit. Praesent vitae eros molestie, dapibus nunc ac, tristique lectus. Praesent ultricies mi sit amet sapien cursus bibendum.</p>
+  </div>
+  <div class="left-about-sec col-lg-4 col-md-12 col-12  d-flex flex-column align-items-md-start  align-items-center" style="height: 400px; padding-top: 90px; font-size: 17px;word-spacing: 3px;">
+      <span class="mb-3" style="color: #9a9e9f;"><strong style="color: #3d626c;">MORE INFO :</strong>  support@mobirise.com </span>
+      <span class="mb-3" style="color: #9a9e9f;" ><strong style="color: #3d626c;" >CATEGORY :</strong>  creative </span> 
+      <span class="mb-3" style="color: #9a9e9f;"><strong style="color: #3d626c;" >DATE : </strong>  December 26, 2019 </span>
+      <span class="mb-3" style="color: #3d626c;"><strong style="color: #3d626c;" > SHARE : </strong>  <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        <i class="fa fa-skype" aria-hidden="true"></i>
+      </span>
+  </div>
+</div>
+        
       </div>
     </section>
+
+    <section class=" social-network-sec ">
+      <div class="container-fluid">
+        <div class="row   d-flex align-items-center justify-content-center"
+        style="color: #3d626c; font-size: 18px;">
+             <div class="col-lg-6 col-md-6 col-8 d-flex flex-column justify-content-center align-items-center" style="height:  350px;">
+            <h2 class="mb-4">Social Network</h2>
+            <p class="text-center mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam dolor numquam libero soluta corporis exercitationem rerum error quis, quam delectus repellat.</p>
+            <span style="word-spacing: 10px;" class="mb-4">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <i class="fa fa-skype" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+  
+  
+                  
+            </span>
+            </div>
+  
+        </div>
+
+      </div>
+      
+      
+    </section>
+
+    <footer>
+      <div class="container-fluid">
+       
+        <div class=" row footer-sec" style="height: 200px; background-color: #3d626c;">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        <div class="line-footer-sec" style="height: 1px; width: 80%; background-color: white;"></div>
+        <div class="copyright-footer">
+          <span> <i class="fas fa-copyright"></i>  2023 CraftShop ,Inc</span>
+        </div>
+
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
